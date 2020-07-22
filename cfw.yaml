@@ -6,7 +6,7 @@ log-level: info
 dns:
   enable: true
   ipv6: false
-  enhanced-mode: redir-host
+#  enhanced-mode: redir-host
   listen: 0.0.0.0:53
   nameserver:
     - 119.29.29.29
