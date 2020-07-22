@@ -17,4 +17,4 @@ dns:
     - 8.8.8.8
     - 1.0.0.1
     - 8.8.4.4
-interface-name: WLAN # 物理网卡名称
+#interface-name: WLAN # 物理网卡名称
