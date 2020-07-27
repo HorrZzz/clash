@@ -10,24 +10,15 @@ dns:
   enable: true
   ipv6: false
   listen: 0.0.0.0:1053
-  enhanced-mode: redir-host
+  enhanced-mode: fake-ip
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
     - 114.114.114.114
-    - 208.67.222.222
-    - 185.222.222.222
-  fallback:
-    - 1.1.1.1
-    - 1.0.0.1
-    - 8.8.8.8
-    - 8.8.4.4
-    - https://162.159.36.1/dns-query
-    - https://162.159.46.1/dns-query
-    - https://1.1.1.1/dns-query
-    - https://1.0.0.1/dns-query
-    - https://139.224.112.177/dns-query
-    - https://162.14.13.12/dns-query
+    - 114.114.115.115
+    - 182.254.118.118
+    - 223.6.6.6
+    - 180.76.76.76
 tun:
   enable: true
   stack: system
