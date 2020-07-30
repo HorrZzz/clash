@@ -24,3 +24,5 @@ dns:
 tun:
   enable: true
   stack: system
+  dns-listen: 198.18.0.1:53
+  device-url: "dev://utun"
